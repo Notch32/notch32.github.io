@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Belal Mohmed • Flutter Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="description" content="Flutter Developer (IoT + Mobile) — Belal Mohmed">
+</head>
+<body>
+  <header class="container">
+    <div class="intro">
+      <h1>Belal Mohmed</h1>
+      <p>Flutter Developer • IoT + Mobile</p>
+      <p class="muted">1 year at ARMtronics • Egypt</p>
+      <div class="cta">
+        <a class="btn" href="Belal_Mohmed_CV_OnePage.pdf" download>Download CV (PDF)</a>
+        <a class="btn outline" href="mailto:notch.bugs@gmail.com">Email Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I build cross‑platform Flutter apps that connect to hardware (ESP32, load cells, sensors) over Bluetooth,
+        with clean UI and reliable data flows. Backends I use: Firebase, Hive, Supabase. Tooling: Git, REST APIs.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Flutter</li><li>Dart</li><li>Firebase</li><li>Hive</li><li>Supabase</li>
+        <li>Bluetooth LE</li><li>REST APIs</li><li>ESP32</li><li>Arduino/C++</li><li>Python</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>Smart Weight Monitoring App</h3>
+        <p>Flutter + ESP32 (4 load cells) with BLE. Real‑time alerts when weight drops below threshold.</p>
+        <a class="link" href="projects/smart-weight-monitoring.md">View details</a>
+      </article>
+
+      <article class="card">
+        <h3>Smart Scale System</h3>
+        <p>Mobile + IoT integration that tracks object weight, syncs with app, and alerts on limits.</p>
+        <a class="link" href="projects/smart-scale-system.md">View details</a>
+      </article>
+
+      <article class="card">
+        <h3>Medical Records App (MediChain)</h3>
+        <p>Flutter + Supabase with QR-based doctor access and blockchain-backed audit.</p>
+        <a class="link" href="projects/medichain.md">View details</a>
+      </article>
+
+      <article class="card">
+        <h3>Arabic Sign Language Recognition</h3>
+        <p>MPU6050 + flex sensors with Arduino; prototype for recognizing Arabic letters.</p>
+        <a class="link" href="projects/arabic-sign-language.md">View details</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:notch.bugs@gmail.com">notch.bugs@gmail.com</a></p>
+      <p>Phone: 01010788145 – 01095550296</p>
+      <p>Location: Egypt</p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p class="muted">© <span id="year"></span> Belal Mohmed</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
